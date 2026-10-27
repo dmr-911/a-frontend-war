@@ -37,7 +37,17 @@ catches first index number as max, compare with all numbers through loop. update
 ## 5. My JavaScript Solution
 
 ```javascript
-// Write my solution here.
+const findMax = (numbers) =>{
+    let max = null;
+
+    for (let index = 0; index < numbers.length; index++) {
+       if(numbers[index] > max){
+        max = numbers[index]
+       }
+    }
+
+    return max
+}
 ```
 
 ## 6. Test Cases
@@ -50,9 +60,9 @@ catches first index number as max, compare with all numbers through loop. update
 
 ## 7. Complexity Analysis
 
-**Time complexity:**
+**Time complexity:** O(n)
 
-**Space complexity:**
+**Space complexity:** Linear Space
 
 Explain why these complexities apply.
 
