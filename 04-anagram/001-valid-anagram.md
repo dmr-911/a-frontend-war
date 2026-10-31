@@ -1,0 +1,1 @@
+I did face problem thinking about the solution. Then saw a tutorial. First calculate how much individual characters are out there. Then remove it when I found it on second string. if all becomes 0. then return true.
