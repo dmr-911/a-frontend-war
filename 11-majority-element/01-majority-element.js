@@ -24,7 +24,7 @@
 
 // Follow-up: Could you solve the problem in linear time and in O(1) space?
 
-// Solution 1 : 
+// Solution 1 : moore's voting algo
 /**
  * @param {number[]} nums
  * @return {number}
@@ -52,3 +52,4 @@ var majorityElementSol1 = function(nums) {
 
     return occurance > nums.length /2 ? maj : -1;
 };
+
